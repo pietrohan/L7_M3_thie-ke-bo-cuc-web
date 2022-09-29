@@ -1,0 +1,104 @@
+body{
+  font-family: Arial;
+  background-color: lightgrey;
+}
+header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+#menu{
+  height: 30px;
+  padding:0;
+  margin:0;
+  background-color: black;
+  border: 1px solid grey;
+}
+
+#menu ul, #menu li{
+  padding:0;
+  margin:0;
+}
+
+#menu li{
+  position: relative;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+#menu li a {
+  width: 100px;
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  background-color: black;
+  color: white;
+}
+#menu ul ul li a {
+  width: 200px;
+  text-align: left;
+  padding-left: 10px;
+
+}
+#menu li a:hover{
+  background-color: red;
+}
+#menu ul ul{
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  visibility: hidden;
+}
+#menu ul li:hover ul{
+  visibility: visible;
+}
+
+
+aside {
+  position: fixed;
+
+  height: 100%;
+  width: 20%;
+  left: 0px;
+
+}
+
+main{;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  left:80%;
+  top:32px;
+  padding-left:5%;
+
+}
+section {
+  width: 60%;
+  background-color: white;
+  text-align: justify;
+  text-indent: 50px;
+  margin-left:20%;
+  top: 32px;
+  padding: 0px 20px;
+}
+article p {
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  text-align: justify;
+  text-indent: 50px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  clear: both;
+  text-align: center;
+}
+
